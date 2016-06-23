@@ -29,6 +29,7 @@
     self.memberPic.image = self.teamMember.photo;
     self.favoriteBand.text = self.teamMember.favoriteBand;
     self.phoneNumber.text = self.teamMember.phoneNumber;
+    self.birthSpot.text = [NSString stringWithFormat:@"%@, %@", self.teamMember.birthCity, self.teamMember.birthState];
     
 }
 
